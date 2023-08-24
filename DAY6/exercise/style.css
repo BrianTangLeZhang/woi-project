@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(netflix-banner.jpg);
+  height: 100vh;
+  background-size: cover;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+}
+
+.head {
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.4);
+  position: absolute;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top img {
+  height: 50px;
+  width: 165px;
+}
+.top select {
+  font-size: 17px;
+  background-color: #222222cc;
+  padding: 6px 36px;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+option {
+  background-color: white;
+  color: white;
+}
+.top button {
+  font-size: 16px;
+  color: white;
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  padding: 5px 14px;
+  border-radius: 4px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  position: absolute;
+  top: 20px;
+}
+.top img {
+  position: absolute;
+  left: -600px;
+}
+
+.top .selection {
+  position: absolute;
+  right: -600px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+.title h1 {
+  font-size: 55px;
+  margin: 20px 0;
+}
+
+.title h4 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.title p {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.log-in input {
+  background: #222222cc;
+  color: white;
+  font-size: 18px;
+  width: 40%;
+  padding: 15px 36px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  outline: white;
+}
+
+.log-in button {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  border-radius: 4px;
+  padding: 15px 15px;
+}
+section {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+}
+
+section .first,
+.second {
+  padding: 5%;
+  border-top: 10px solid #222222cc;
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.text h2{
+    padding:20px 40px;
+    font-size: 55px;
+}
+
+.text p{
+    padding:10px;
+    font-size: 30px;
+}

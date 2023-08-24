@@ -1,0 +1,7 @@
+viewport - it is the user's visible area of the webpage
+vh - viewpost heigh
+vw - viewport width
+
+width=device-with - it sets the width the page to follow the screen width of the device
+
+initial-scale=1.0 - it sets the initial zoom of the page when it is loaded by the browser.

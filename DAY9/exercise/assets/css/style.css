@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.a-btn:hover {
+  box-shadow: 1px 5px 10px rgba(0, 0, 251, 0.273);
+  color: rgb(0, 89, 178);
+}

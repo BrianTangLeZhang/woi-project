@@ -1,0 +1,43 @@
+.parent{
+    border: 2px solid black;
+    background-color: aqua;
+    height: 300vh;
+}
+
+.one{
+    background-color: pink;
+}
+.two{
+    background-color: tomato;
+}
+
+.three{
+    background-color: bisque;
+}
+
+/* top,right.bottom,left - only works if you have a position property,any of the 4 properties*/
+
+/* ststic - is the default positioning */
+/* relative - it will be positioned relatively to its  original position*/
+/* absolute 
+    - if an element is position absolute and its NOT inside any relative element then it CAN move freely anywhere on the webpage */
+/* fixed - if an element is position fixed it would just stay there even if you scroll up and down */
+/* sticky - its a combination of relative and fixed positions,it only sticks depending on your scroll position */
+
+.card{
+    border: 2px solid rgb(0,0,0,0);
+    width: 350px;
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .caption{
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../img/hero_1.jpg.webp);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.shade {
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.con-1 h1 {
+  font-size: 80px;
+}
+
+.con-1 p {
+  font-size: 30px;
+}
+
+#press {
+  display: flex;
+}
+
+.con-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.part2 {
+  background-image: url(../img/round.png.webp);
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: white;
+  width: 30%;
+  border-radius: 0%;
+}
+
+h5 {
+  font-size: 24px;
+  color: black;
+}
+h5:hover {
+  color: rgb(255, 41, 41);
+}
+
+.con-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@media (min-width: 993px) {
+  .con-1 h1 {
+    font-size: 80px;
+  }
+  .con-1 p {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 992px) and (min-width:770px){
+  .con-1 h1 {
+    font-size: 60px;
+  }
+  .con-1 p {
+    font-size: 24px;
+  }
+  #press {
+    display: block;
+  }
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  } 
+  .card1,
+  .card2{
+    width: 40%;
+    margin:1% 1%;
+  }
+  .card3{
+    display: none;
+  }
+}
+
+@media (max-width:769px){
+  .con-1 h1 {
+    font-size: 40px;
+  }
+  .con-1 p {
+    font-size: 18px;
+  }
+  #press {
+    display: block;
+  }
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  } 
+  .card1{
+    width: 100%;
+    margin:10px 10px;
+  }
+  .card2,
+  .card3{
+    display: none;
+  }
+}

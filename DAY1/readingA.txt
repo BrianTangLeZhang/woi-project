@@ -1,0 +1,15 @@
+CSS Specificity
+-When do we target elements by class,id or element name
+ans:when we need to target more elements,we can use class;target the only unique element,use id;target all the same name elements,use element name.
+
+-Which is more prioritized id,class or element name
+ans:1st is id,later is class,last is element name
+
+-How can we target an nth-child(let's say you only want to target the 3rd item on the list)
+ans:we can use :nth-child(3) to target the 3rd item
+
+-What are the pseudo elements and when and how we use it
+ans:we can easily enhance the visual appearance and user experience of web pages without adding extra HTML elements.
+
+-What are pseudo selectors and when and how do we use it
+ans:Pseudo-selectors are special selectors in CSS used to target specific states or positions of elements.

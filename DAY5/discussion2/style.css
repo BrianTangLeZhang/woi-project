@@ -1,0 +1,130 @@
+section{
+    border:2px solid grey ;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+
+.ball{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: yellow;
+    position: absolute;
+    left: 232px;
+    top: 20%;
+}
+
+.rec{
+    width: 20px;
+    height: 30px;
+    background-color: rgb(162, 176, 176);
+    position: absolute;
+    left: 240px;
+    top: 25%;
+}
+
+.ear{
+    width: 150px;
+    height: 50px;
+    border: 14px solid red;
+    background-color:red;
+    border-radius:10px;
+    position: absolute;
+    left: 162px;
+    top:39% ;
+}
+
+.head{
+    width: 150px;
+    height: 150px;
+    border: 5px solid grey;
+    background-color: #e7e7e7;
+    border-radius:10px;
+    position: relative;
+    position: absolute;
+    left:171px;
+    top:31%
+}
+
+.r-eb{
+    width: 35px;
+    height: 10px;
+    border-top: 3px solid rgb(100, 161, 161);
+    position:absolute;
+    background-color: #e7e7e7;
+    left: 15%;
+    top:15%;
+}
+
+.l-eb{
+    width: 35px;
+    height: 10px;
+    border-top: 3px solid rgb(100, 161, 161);
+    position:absolute;
+    background-color: #e7e7e7;
+    right: 15%;
+    top:15%;
+}
+
+.r-eye{
+    width: 30px;
+    height: 30px;
+    border: 5px solid rgb(49, 223, 223);
+    background-color:rgb(255, 255, 255);
+    border-radius:100%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.l-eye{
+    width: 30px;
+    height: 30px;
+    border: 5px solid rgb(49, 223, 223);
+    background-color:rgb(255, 255, 255);
+    border-radius:100%;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.nose{
+    border-bottom: 20px solid red;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position: absolute;
+    top: 47%;
+    left:42.5%;
+}
+
+.emp{
+    border-bottom: 2px solid black;
+    width:81.5px;
+    height: 15px;
+    position: absolute;
+    background-color: #e7e7e7;
+    bottom:25%;
+    left:22%;
+    z-index: +1;
+}
+
+.mouth{
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    bottom:15%;
+    left:21.5%
+}
+
+.mouth div{
+    width: 3px;
+    height:20px;
+    background-color: #000000;
+}

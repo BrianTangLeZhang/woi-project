@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  height: 100vh;
+  display: flex;
+}
+
+nav {
+  background-color: #171642;
+  width: 25vw;
+  height: 100%;
+}
+
+nav img {
+  display: block;
+  margin: 20% auto;
+}
+
+aside {
+  width: 75vw;
+  height: 100%;
+  background-color: salmon;
+}
+
+.word h2 {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+
+.head h1 {
+  font-size: 60px;
+}
+
+.head img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.left {
+  width: 58%;
+  margin-bottom: 20px;
+}
+
+.left div {
+  margin: 10px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.left h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.left .intro {
+  width: 80%;
+  display: flex;
+  justify-content: start;
+  padding: 10px 0;
+}
+
+.intro p {
+  text-decoration: underline;
+}
+
+.right {
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+  background-size: cover;
+  margin-top:10px ;
+} 
+
+.right h3{
+    font-size: 25px;
+}
+
+.right input{
+    width: 99%;
+    align-items: center;
+}
+
+.ann{
+    padding: 10px;
+}
+
+.ann2 img{
+    align-items: center;
+    width:60px ;
+    height: 60px;
+    border-radius: 60px;
+    margin: 10px;
+}
+
+.ann2{
+    display: flex;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.ann2 div{
+    margin-top: 10px;
+}

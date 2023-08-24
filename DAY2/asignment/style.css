@@ -1,0 +1,58 @@
+/*h1 {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.all {
+  padding: 15px;
+}
+
+img {
+  width: 325px;
+  height: 200px;
+}
+
+.point {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.pnw {
+  width: 325px;
+  height: auto;
+  margin: 10px;
+}
+
+.pnw h2 {
+  width: 325px;
+  height: auto;
+}
+
+.pnw p {
+  width: 325px;
+  height: auto;
+}
+
+.pnw a {
+  width: 325px;
+  height: auto;
+  padding-bottom: 20px;
+  font-size: 12px;
+}*/
+
+.point{
+  display: flex;
+  justify-content: space-between;
+}
+
+.point div{
+  width: 20%;
+}
+
+img{
+  width: 100%;
+}

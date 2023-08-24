@@ -1,0 +1,29 @@
+h2{
+    color: blue;
+    font-size: 32px;
+}
+
+div{
+    border: 3px solid black;
+    /*margin:TOP RIGHT BOTTOM LEFT  */
+    /* margin:TOP/BOTTOM RIGHT/LEFT */
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px ;*/
+    /* margin: 30px 50px 30px 50px; */
+    margin: 30px 50px;
+    padding: 15px;
+    border-radius: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+#pic{
+    width: 200px;
+    height: 200px;
+    border: 2px solid aqua;
+}

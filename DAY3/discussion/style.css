@@ -1,0 +1,73 @@
+header{
+    background-image: url("https://www.usm.my/templates/yootheme/cache/de/Acv-Banner-Kosong-de7029f6.webp");
+    height: 100vh;/*viewpot height */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 600px; 
+}
+
+.research {
+  background: url("green-bg.jpg");
+  background-size: cover;
+  padding: 60px 50px;
+  color: white;
+  text-align: center;
+}
+
+.research h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container h3 {
+  font-size: 35px;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.admission h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.admission p {
+  text-align: center;
+}
+
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.pic div{
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.pic img {
+  width: 100%;
+}
+
+.pic h4 {
+  font-weight:bold;
+  font-size: 16px;
+}
+
+.pic p {
+  font-size: 15px;
+  text-align: left;
+}
